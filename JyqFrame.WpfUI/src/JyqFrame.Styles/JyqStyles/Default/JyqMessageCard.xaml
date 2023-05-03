@@ -1,0 +1,277 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:JyqFrame.Styles.Controls"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <system:Double x:Key="IconPathWidth">20</system:Double>
+    <system:Double x:Key="IconPathHeight">20</system:Double>
+    <system:Double x:Key="CloseButtonWidth">15</system:Double>
+    <system:Double x:Key="CloseButtonHeight">15</system:Double>
+
+    <Style x:Key="JyqMessageCardStyle"
+           TargetType="local:JyqMessageCard">
+        <Setter Property="FocusVisualStyle"
+                Value="{DynamicResource DefaultControlFocusVisualStyle}"/>
+        <Setter Property="MinHeight"
+                Value="40" />
+        <Setter Property="MinWidth"
+                Value="350" />
+        <Setter Property="Panel.ZIndex"
+                Value="100" />
+        <Setter Property="HorizontalAlignment"
+                Value="Center" />
+        <Setter Property="VerticalAlignment"
+                Value="Center" />
+        <Setter Property="Margin"
+                Value="0 5" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="local:JyqMessageCard">
+                    <local:JyqTransitionAnimation IsStartAnimation="True"
+                                                  Style="{DynamicResource JyqTransitionAnimationStyle}"
+                                                  x:Name="PART_Transition">
+                        <Border x:Name="backBorder"
+                                CornerRadius="{TemplateBinding CornerRadius}"
+                                Background="{TemplateBinding Background}"
+                                BorderThickness="0">
+                            <Grid>
+                                <Grid x:Name="gridDefault"
+                                      Opacity="1">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="auto" />
+                                        <ColumnDefinition />
+                                        <ColumnDefinition Width="auto" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid Grid.Column="0"
+                                          Margin="15">
+                                        <Path x:Name="iconPath"
+                                              HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"
+                                              StrokeThickness="1"
+                                              Width="{DynamicResource IconPathWidth}"
+                                              Height="{DynamicResource IconPathHeight}"
+                                              Stretch="Fill" />
+                                    </Grid>
+                                    <Grid Grid.Column="1"
+                                          Margin="10">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition />
+                                            <RowDefinition />
+                                        </Grid.RowDefinitions>
+                                        <TextBlock Text="{TemplateBinding MessageContent}"
+                                                   FontSize="{DynamicResource JyqUIFontLargeSize}"
+                                                   TextWrapping="Wrap"
+                                                   VerticalAlignment="Center"
+                                                   x:Name="lblContent" />
+                                        <TextBlock Text="{TemplateBinding MessageDescription}"
+                                                   FontSize="{DynamicResource JyqUIFontSize}"
+                                                   Opacity="0.5"
+                                                   Grid.Row="1"
+                                                   TextWrapping="Wrap"
+                                                   VerticalAlignment="Center"
+                                                   x:Name="lblDescription" />
+                                    </Grid>
+                                    <Grid Grid.Column="2"
+                                          Margin="15">
+                                        <Button Width="{DynamicResource CloseButtonWidth}"
+                                                Height="{DynamicResource CloseButtonHeight}"
+                                                x:Name="PART_CloseButton">
+                                            <Button.Template>
+                                                <ControlTemplate>
+                                                    <Grid>
+                                                        <Path Data="{DynamicResource CloseIcon}"
+                                                              Stretch="Fill"
+                                                              StrokeThickness="1"
+                                                              VerticalAlignment="Center"
+                                                              HorizontalAlignment="Center"
+                                                              Stroke="{DynamicResource LightForeground}" 
+                                                              x:Name="path"/>
+                                                    </Grid>
+                                                    <ControlTemplate.Triggers>
+                                                        <Trigger Property="IsMouseOver"
+                                                                 Value="True">
+                                                            <Setter Property="Effect">
+                                                                <Setter.Value>
+                                                                    <DropShadowEffect ShadowDepth="1"
+                                                                                      Color="White"
+                                                                                      BlurRadius="1" />
+                                                                </Setter.Value>
+                                                            </Setter>
+                                                        </Trigger>
+                                                    </ControlTemplate.Triggers>
+                                                </ControlTemplate>
+                                            </Button.Template>
+                                        </Button>
+                                    </Grid>
+                                </Grid>
+                                <ContentPresenter x:Name="customContent"
+                                                  Opacity="0"
+                                                  Content="{TemplateBinding CustomContent}"
+                                                  VerticalAlignment="{TemplateBinding VerticalAlignment}"
+                                                  HorizontalAlignment="{TemplateBinding HorizontalAlignment}"
+                                                  Margin="{TemplateBinding Padding}" />
+                            </Grid>
+                        </Border>
+                    </local:JyqTransitionAnimation>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="MessageType"
+                                 Value="DefaultDark">
+                            <Setter Property="Background"
+                                    Value="{DynamicResource DarkBackground}" />
+                            <Setter Property="Data"
+                                    Value="{DynamicResource DefaultIcon}"
+                                    TargetName="iconPath" />
+                            <Setter Property="Stroke"
+                                    Value="{DynamicResource LightForeground}"
+                                    TargetName="iconPath" />
+                            <Setter Property="Foreground"
+                                    Value="{DynamicResource LightForeground}"
+                                    TargetName="lblContent" />
+                            <Setter Property="Foreground"
+                                    Value="{DynamicResource LightForeground}"
+                                    TargetName="lblDescription" />
+                            <Setter Property="Opacity"
+                                    TargetName="gridDefault"
+                                    Value="1" />
+                            <Setter Property="Opacity"
+                                    Value="0"
+                                    TargetName="customContent" />
+                        </Trigger>
+                        <Trigger Property="MessageType"
+                                 Value="DefaultLight">
+                            <Setter Property="Background"
+                                    Value="{DynamicResource LightBackground}" />
+                            <Setter Property="Data"
+                                    Value="{DynamicResource DefaultIcon}"
+                                    TargetName="iconPath" />
+                            <Setter Property="Stroke"
+                                    Value="{DynamicResource DarkForeground}"
+                                    TargetName="iconPath" />
+                            <Setter Property="Foreground"
+                                    Value="{DynamicResource DarkForeground}"
+                                    TargetName="lblContent" />
+                            <Setter Property="Foreground"
+                                    Value="{DynamicResource DarkForeground}"
+                                    TargetName="lblDescription" />
+                            <Setter Property="Opacity"
+                                    TargetName="gridDefault"
+                                    Value="1" />
+                            <Setter Property="Opacity"
+                                    Value="0"
+                                    TargetName="customContent" />
+                        </Trigger>
+                        <Trigger Property="MessageType"
+                                 Value="Info">
+                            <Setter Property="Background"
+                                    Value="{DynamicResource PrimaryBackground}" />
+                            <Setter Property="Data"
+                                    Value="{DynamicResource DefaultIcon}"
+                                    TargetName="iconPath" />
+                            <Setter Property="Stroke"
+                                    Value="{DynamicResource LightForeground}"
+                                    TargetName="iconPath" />
+                            <Setter Property="Foreground"
+                                    Value="{DynamicResource LightForeground}"
+                                    TargetName="lblContent" />
+                            <Setter Property="Foreground"
+                                    Value="{DynamicResource LightForeground}"
+                                    TargetName="lblDescription" />
+                            <Setter Property="Opacity"
+                                    TargetName="gridDefault"
+                                    Value="1" />
+                            <Setter Property="Opacity"
+                                    Value="0"
+                                    TargetName="customContent" />
+                        </Trigger>
+                        <Trigger Property="MessageType"
+                                 Value="Success">
+                            <Setter Property="Background"
+                                    Value="{DynamicResource SuccessBackground}" />
+                            <Setter Property="Data"
+                                    Value="{DynamicResource SuccessIcon}"
+                                    TargetName="iconPath" />
+                            <Setter Property="Stroke"
+                                    Value="{DynamicResource LightForeground}"
+                                    TargetName="iconPath" />
+                            <Setter Property="Foreground"
+                                    Value="{DynamicResource LightForeground}"
+                                    TargetName="lblContent" />
+                            <Setter Property="Foreground"
+                                    Value="{DynamicResource LightForeground}"
+                                    TargetName="lblDescription" />
+                            <Setter Property="Opacity"
+                                    TargetName="gridDefault"
+                                    Value="1" />
+                            <Setter Property="Opacity"
+                                    Value="0"
+                                    TargetName="customContent" />
+                        </Trigger>
+                        <Trigger Property="MessageType"
+                                 Value="Warn">
+                            <Setter Property="Background"
+                                    Value="{DynamicResource CautionBackground}" />
+                            <Setter Property="Data"
+                                    Value="{DynamicResource WarnIcon}"
+                                    TargetName="iconPath" />
+                            <Setter Property="Stroke"
+                                    Value="{DynamicResource LightForeground}"
+                                    TargetName="iconPath" />
+                            <Setter Property="Foreground"
+                                    Value="{DynamicResource LightForeground}"
+                                    TargetName="lblContent" />
+                            <Setter Property="Foreground"
+                                    Value="{DynamicResource LightForeground}"
+                                    TargetName="lblDescription" />
+                            <Setter Property="Opacity"
+                                    TargetName="gridDefault"
+                                    Value="1" />
+                            <Setter Property="Opacity"
+                                    Value="0"
+                                    TargetName="customContent" />
+                        </Trigger>
+                        <Trigger Property="MessageType"
+                                 Value="Error">
+                            <Setter Property="Background"
+                                    Value="{DynamicResource DrangerBackground}" />
+                            <Setter Property="Data"
+                                    Value="{DynamicResource ErrorIcon}"
+                                    TargetName="iconPath" />
+                            <Setter Property="Stroke"
+                                    Value="{DynamicResource LightForeground}"
+                                    TargetName="iconPath" />
+                            <Setter Property="Foreground"
+                                    Value="{DynamicResource LightForeground}"
+                                    TargetName="lblContent" />
+                            <Setter Property="Foreground"
+                                    Value="{DynamicResource LightForeground}"
+                                    TargetName="lblDescription" />
+                            <Setter Property="Opacity"
+                                    TargetName="gridDefault"
+                                    Value="1" />
+                            <Setter Property="Opacity"
+                                    Value="0"
+                                    TargetName="customContent" />
+                        </Trigger>
+                        <Trigger Property="MessageType"
+                                 Value="Custom">
+                            <Setter Property="Opacity"
+                                    TargetName="gridDefault"
+                                    Value="0" />
+                            <Setter Property="Opacity"
+                                    Value="1"
+                                    TargetName="customContent" />
+                            <Setter Property="BorderThickness"
+                                    Value="1"
+                                    TargetName="backBorder" />
+                            <Setter Property="BorderBrush" Value="{DynamicResource PrimaryBackground}" 
+                                    TargetName="backBorder"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+
+    </Style>
+    <Style BasedOn="{StaticResource JyqMessageCardStyle}"
+           TargetType="local:JyqMessageCard" />
+</ResourceDictionary>

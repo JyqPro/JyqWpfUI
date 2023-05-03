@@ -1,0 +1,180 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:controls="clr-namespace:JyqFrame.Styles.Controls"
+                    xmlns:cv="clr-namespace:JyqFrame.Styles.Converters">
+    
+    <cv:ProgressValueConverter x:Key="ProgressValueConverter"/>
+    <cv:ProgressTextConverter x:Key="ProgressTextConverter"/>
+
+    <Style x:Key="JyqProgressBarStyle" TargetType="{x:Type controls:JyqProgressBar}">
+        <Setter Property="Foreground" Value="{DynamicResource PrimaryForeground}"/>
+        <Setter Property="Background" Value="{DynamicResource DarkBackground}"/>
+        <Setter Property="BorderBrush" Value="{DynamicResource PrimaryForeground}"/>
+        <Setter Property="BorderThickness" Value="0"/>
+        <Setter Property="Height"
+                Value="10"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type controls:JyqProgressBar}">
+                    <Grid x:Name="TemplateRoot">
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="CommonStates">
+                                <VisualState x:Name="Determinate"/>
+                                <VisualState x:Name="Indeterminate">
+                                    <Storyboard RepeatBehavior="Forever">
+                                        <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Animation" 
+                                                                       Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
+                                            <EasingDoubleKeyFrame KeyTime="0" Value="0.25"/>
+                                            <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0.25"/>
+                                            <EasingDoubleKeyFrame KeyTime="0:0:2" Value="0.25"/>
+                                        </DoubleAnimationUsingKeyFrames>
+                                        <PointAnimationUsingKeyFrames Storyboard.TargetName="Animation" 
+                                                                      Storyboard.TargetProperty="(UIElement.RenderTransformOrigin)">
+                                            <EasingPointKeyFrame KeyTime="0" Value="-0.5,0.5"/>
+                                            <EasingPointKeyFrame KeyTime="0:0:1" Value="0.5,0.5"/>
+                                            <EasingPointKeyFrame KeyTime="0:0:2" Value="1.5,0.5"/>
+                                        </PointAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                        <Border Background="{TemplateBinding Background}" 
+                                BorderBrush="{TemplateBinding BorderBrush}" 
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="6"
+                                x:Name="BackBorder">
+                        </Border>
+                        <Rectangle x:Name="PART_Track" 
+                                   RadiusX="6"
+                                   RadiusY="6"/>
+                        <Grid x:Name="PART_Indicator" 
+                              ClipToBounds="true" 
+                              HorizontalAlignment="Left">
+                            <Rectangle x:Name="Indicator" 
+                                       Fill="{TemplateBinding Foreground}"
+                                       RadiusX="6"
+                                       RadiusY="6"/>
+                            <Rectangle x:Name="Animation" 
+                                       Fill="{TemplateBinding Foreground}" 
+                                       RenderTransformOrigin="0.5,0.5"
+                                       RadiusX="6"
+                                       RadiusY="6">
+                                <Rectangle.RenderTransform>
+                                    <TransformGroup>
+                                        <ScaleTransform/>
+                                        <SkewTransform/>
+                                        <RotateTransform/>
+                                        <TranslateTransform/>
+                                    </TransformGroup>
+                                </Rectangle.RenderTransform>
+                            </Rectangle>
+                        </Grid>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="Orientation" Value="Vertical">
+                            <Setter Property="LayoutTransform" TargetName="TemplateRoot">
+                                <Setter.Value>
+                                    <RotateTransform Angle="-90"/>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                        <Trigger Property="IsIndeterminate" Value="true">
+                            <Setter Property="Visibility" TargetName="Indicator" Value="Collapsed"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="ThemeType"
+                     Value="Dark">
+                <Setter Property="Background" Value="{DynamicResource DarkBackground}"/>
+            </Trigger>
+            <Trigger Property="ThemeType"
+                     Value="Light">
+                <Setter Property="Background" Value="{DynamicResource LightBackground}"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    
+    <Style x:Key="JyqProgressBarDesignStyle" TargetType="{x:Type controls:JyqProgressBar}">
+        <Setter Property="Foreground" Value="{DynamicResource PrimaryForeground}"/>
+        <Setter Property="Background" Value="{DynamicResource DarkBackground}"/>
+        <Setter Property="BorderBrush" Value="{DynamicResource PrimaryForeground}"/>
+        <Setter Property="BorderThickness" Value="0"/>
+        <Setter Property="Width" Value="80" />
+        <Setter Property="Height" Value="80" />
+        <Setter Property="StrokeThickness" Value="8" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type controls:JyqProgressBar}">
+                    <Grid x:Name="TemplateRoot">
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="CommonStates">
+                                <VisualState x:Name="Determinate"/>
+                                <VisualState x:Name="Indeterminate">
+                                    <Storyboard RepeatBehavior="Forever">
+                                        <DoubleAnimation Storyboard.TargetName="PART_Animation" 
+                                                         Storyboard.TargetProperty="(Ellipse.RenderTransform).(RotateTransform.Angle)"
+                                                         From="0"
+                                                         To="360"
+                                                         Duration="0:0:2">
+                                        </DoubleAnimation>
+                                    </Storyboard>
+                                </VisualState>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                        <Grid ClipToBounds="true" >
+                            <Ellipse Stroke="{TemplateBinding Background}" 
+                                     RenderTransformOrigin="0.5,0.5"
+                                     Width="{TemplateBinding Width}"
+                                     Height="{TemplateBinding Height}" 
+                                     StrokeThickness="{TemplateBinding StrokeThickness}">
+                            </Ellipse>
+                            <Ellipse x:Name="PART_Animation" 
+                                     Stroke="{TemplateBinding Foreground}" 
+                                     RenderTransformOrigin="0.5,0.5"
+                                     Width="{TemplateBinding Width}"
+                                     Height="{TemplateBinding Height}" 
+                                     StrokeThickness="{TemplateBinding StrokeThickness}"
+                                     StrokeDashCap="Round">
+                                <Ellipse.RenderTransform>
+                                    <RotateTransform Angle="-90"/>
+                                </Ellipse.RenderTransform>
+                                <Ellipse.StrokeDashArray>
+                                    <MultiBinding Converter="{StaticResource ProgressValueConverter}">
+                                        <Binding RelativeSource="{RelativeSource Mode=TemplatedParent}" Path="Value"/>
+                                        <Binding RelativeSource="{RelativeSource Mode=Self}" Path="StrokeThickness"/>
+                                        <Binding RelativeSource="{RelativeSource Mode=TemplatedParent}" Path="Width"/>
+                                    </MultiBinding>
+                                </Ellipse.StrokeDashArray>
+                            </Ellipse>
+                            <TextBlock HorizontalAlignment="Center"
+                                       VerticalAlignment="Center"
+                                       Foreground="{TemplateBinding Foreground}">
+                                <TextBlock.Text>
+                                    <MultiBinding Converter="{StaticResource ProgressTextConverter}">
+                                        <Binding RelativeSource="{RelativeSource Mode=TemplatedParent}" Path="Value"/>
+                                        <Binding RelativeSource="{RelativeSource Mode=TemplatedParent}" Path="Maximum"/>
+                                    </MultiBinding>
+                                </TextBlock.Text>
+                            </TextBlock>
+                        </Grid>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="ThemeType"
+                     Value="Dark">
+                <Setter Property="Background" Value="{DynamicResource DarkBackground}"/>
+            </Trigger>
+            <Trigger Property="ThemeType"
+                     Value="Light">
+                <Setter Property="Background" Value="{DynamicResource LightBackground}"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    <Style BasedOn="{StaticResource JyqProgressBarStyle}"
+           TargetType="{x:Type controls:JyqProgressBar}"/>
+</ResourceDictionary>

@@ -1,0 +1,101 @@
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\JyqFrame.Example.exe.config
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\JyqFrame.Example.exe
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\JyqFrame.Example.pdb
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Example\obj\Debug\JyqFrame.Example.csproj.AssemblyReference.cache
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Example\obj\Debug\JyqFrame.Example.csproj.SuggestedBindingRedirects.cache
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Example\obj\Debug\MainWindow.g.cs
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Example\obj\Debug\App.g.cs
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Example\obj\Debug\JyqFrame.Example_MarkupCompile.cache
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Example\obj\Debug\JyqFrame.Example_MarkupCompile.lref
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Example\obj\Debug\MainWindow.baml
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Example\obj\Debug\JyqFrame.Example.g.resources
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Example\obj\Debug\JyqFrame.Example.Properties.Resources.resources
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Example\obj\Debug\JyqFrame.Example.csproj.GenerateResource.cache
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Example\obj\Debug\JyqFrame.Example.csproj.CoreCompileInputs.cache
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Example\obj\Debug\JyqFrame.Example.exe
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Example\obj\Debug\JyqFrame.Example.pdb
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\JyqFrame.Core.dll
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\JyqFrame.Shared.dll
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\JyqFrame.Styles.dll
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\Newtonsoft.Json.dll
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\JyqFrame.Shared.pdb
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\JyqFrame.Core.pdb
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\JyqFrame.Styles.pdb
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\Newtonsoft.Json.xml
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Example\obj\Debug\App.baml
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Example\obj\Debug\JyqFrame.Example.csproj.CopyComplete
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\Microsoft.Xaml.Behaviors.dll
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\Microsoft.Xaml.Behaviors.xml
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\JyqFrame.Example.exe.config
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\JyqFrame.Example.exe
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\JyqFrame.Example.pdb
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\JyqFrame.Core.dll
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\JyqFrame.Styles.dll
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\Microsoft.Xaml.Behaviors.dll
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\JyqFrame.Core.pdb
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\JyqFrame.Styles.pdb
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\Microsoft.Xaml.Behaviors.xml
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\obj\Debug\JyqFrame.Example.csproj.AssemblyReference.cache
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\obj\Debug\JyqFrame.Example.csproj.SuggestedBindingRedirects.cache
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\obj\Debug\App.g.cs
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\obj\Debug\JyqFrame.Example_MarkupCompile.cache
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\obj\Debug\JyqFrame.Example_MarkupCompile.lref
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\obj\Debug\App.baml
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\obj\Debug\JyqFrame.Example.g.resources
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\obj\Debug\JyqFrame.Example.Properties.Resources.resources
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\obj\Debug\JyqFrame.Example.csproj.GenerateResource.cache
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\obj\Debug\JyqFrame.Example.csproj.CoreCompileInputs.cache
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\obj\Debug\JyqFrame.Example.csproj.CopyComplete
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\obj\Debug\JyqFrame.Example.exe
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\obj\Debug\JyqFrame.Example.pdb
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\DryIoc.dll
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\Prism.dll
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\Prism.DryIoc.Wpf.dll
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\Prism.Wpf.dll
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\DryIoc.xml
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\Prism.pdb
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\Prism.xml
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\Prism.DryIoc.Wpf.pdb
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\Prism.DryIoc.Wpf.xml
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\Prism.Wpf.pdb
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\Prism.Wpf.xml
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\obj\Debug\Views\MainWindow.g.cs
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\obj\Debug\Views\MainWindow.baml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\JyqFrame.Example.exe.config
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\JyqFrame.Example.exe
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\JyqFrame.Example.pdb
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\DryIoc.dll
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\JyqFrame.Core.dll
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\JyqFrame.Styles.dll
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\Microsoft.Xaml.Behaviors.dll
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\Prism.dll
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\Prism.DryIoc.Wpf.dll
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\Prism.Wpf.dll
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\JyqFrame.Core.pdb
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\JyqFrame.Styles.pdb
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\DryIoc.xml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\Microsoft.Xaml.Behaviors.xml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\Prism.pdb
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\Prism.xml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\Prism.DryIoc.Wpf.pdb
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\Prism.DryIoc.Wpf.xml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\Prism.Wpf.pdb
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\bin\Debug\Prism.Wpf.xml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\obj\Debug\JyqFrame.Example.csproj.AssemblyReference.cache
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\obj\Debug\JyqFrame.Example.csproj.SuggestedBindingRedirects.cache
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\obj\Debug\Views\MainWindow.g.cs
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\obj\Debug\App.g.cs
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\obj\Debug\JyqFrame.Example_MarkupCompile.cache
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\obj\Debug\JyqFrame.Example_MarkupCompile.lref
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\obj\Debug\App.baml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\obj\Debug\Views\MainWindow.baml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\obj\Debug\JyqFrame.Example.g.resources
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\obj\Debug\JyqFrame.Example.Properties.Resources.resources
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\obj\Debug\JyqFrame.Example.csproj.GenerateResource.cache
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\obj\Debug\JyqFrame.Example.csproj.CoreCompileInputs.cache
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\obj\Debug\JyqFrame.Example.csproj.CopyComplete
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\obj\Debug\JyqFrame.Example.exe
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Example\obj\Debug\JyqFrame.Example.pdb

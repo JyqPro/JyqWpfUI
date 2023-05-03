@@ -1,0 +1,44 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:JyqFrame.Styles.JyqStyles">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="pack://Application:,,,/JyqFrame.Styles;component/JyqStyles/Asset/JyqFontStyle.xaml" />
+        <ResourceDictionary Source="pack://Application:,,,/JyqFrame.Styles;component/JyqStyles/Asset/JyqColorStyle.xaml" />
+        <ResourceDictionary Source="pack://Application:,,,/JyqFrame.Styles;component/JyqStyles/Asset/JyqPathStyle.xaml" />
+        <ResourceDictionary Source="pack://Application:,,,/JyqFrame.Styles;component/JyqStyles/Default/JyqMessageCard.xaml" />
+        <ResourceDictionary Source="pack://Application:,,,/JyqFrame.Styles;component/JyqStyles/Default/JyqMessageCardHost.xaml" />
+        <ResourceDictionary Source="pack://Application:,,,/JyqFrame.Styles;component/JyqStyles/Default/JyqTransitionAnimation.xaml" />
+        <ResourceDictionary Source="pack://Application:,,,/JyqFrame.Styles;component/JyqStyles/Default/JyqLoadingAnimation.xaml" />
+        <ResourceDictionary Source="pack://Application:,,,/JyqFrame.Styles;component/JyqStyles/Default/JyqScrollBarStyle.xaml" />
+        <ResourceDictionary Source="pack://Application:,,,/JyqFrame.Styles;component/JyqStyles/Default/JyqScrollViewerStyle.xaml" />
+        <ResourceDictionary Source="pack://Application:,,,/JyqFrame.Styles;component/JyqStyles/Default/JyqButtonStyle.xaml" />
+        <ResourceDictionary Source="pack://Application:,,,/JyqFrame.Styles;component/JyqStyles/Default/JyqToggleButtonStyle.xaml" />
+        <ResourceDictionary Source="pack://Application:,,,/JyqFrame.Styles;component/JyqStyles/Default/JyqRadioButtonStyle.xaml" />
+        <ResourceDictionary Source="pack://Application:,,,/JyqFrame.Styles;component/JyqStyles/Default/JyqCheckBoxStyle.xaml" />
+        <ResourceDictionary Source="pack://Application:,,,/JyqFrame.Styles;component/JyqStyles/Default/JyqTextBoxStyle.xaml" />
+        <ResourceDictionary Source="pack://Application:,,,/JyqFrame.Styles;component/JyqStyles/Default/JyqPasswordBoxStyle.xaml" />
+        <ResourceDictionary Source="pack://Application:,,,/JyqFrame.Styles;component/JyqStyles/Default/JyqComboBoxStyle.xaml" />
+        <ResourceDictionary Source="pack://Application:,,,/JyqFrame.Styles;component/JyqStyles/Default/JyqSliderStyle.xaml" />
+        <ResourceDictionary Source="pack://Application:,,,/JyqFrame.Styles;component/JyqStyles/Default/JyqCalendarStyle.xaml" />
+        <ResourceDictionary Source="pack://Application:,,,/JyqFrame.Styles;component/JyqStyles/Default/JyqDatePickerStyle.xaml" />
+        <ResourceDictionary Source="pack://Application:,,,/JyqFrame.Styles;component/JyqStyles/Default/JyqExpanderStyle.xaml" />
+        <ResourceDictionary Source="pack://Application:,,,/JyqFrame.Styles;component/JyqStyles/Default/JyqExpanderMenuStyle.xaml" />
+        <ResourceDictionary Source="pack://Application:,,,/JyqFrame.Styles;component/JyqStyles/Default/JyqGroupBoxStyle.xaml" />
+        <ResourceDictionary Source="pack://Application:,,,/JyqFrame.Styles;component/JyqStyles/Default/JyqProgressBarStyle.xaml" />
+        <ResourceDictionary Source="pack://Application:,,,/JyqFrame.Styles;component/JyqStyles/Default/JyqTabControlStyle.xaml" />
+        <ResourceDictionary Source="pack://Application:,,,/JyqFrame.Styles;component/JyqStyles/Default/JyqTabItemStyle.xaml" />
+        <ResourceDictionary Source="pack://Application:,,,/JyqFrame.Styles;component/JyqStyles/Default/JyqTreeViewStyle.xaml" />
+        <ResourceDictionary Source="pack://Application:,,,/JyqFrame.Styles;component/JyqStyles/Default/JyqTreeViewItemStyle.xaml" />
+        <ResourceDictionary Source="pack://Application:,,,/JyqFrame.Styles;component/JyqStyles/Default/JyqDataGridStyle.xaml" />
+        <ResourceDictionary Source="pack://Application:,,,/JyqFrame.Styles;component/JyqStyles/Default/JyqPopupStyle.xaml" />
+        <ResourceDictionary Source="pack://Application:,,,/JyqFrame.Styles;component/JyqStyles/Default/JyqTitleBarStyle.xaml" />
+        <ResourceDictionary Source="pack://Application:,,,/JyqFrame.Styles;component/JyqStyles/Default/JyqStatusBarStyle.xaml" />
+        <ResourceDictionary Source="pack://Application:,,,/JyqFrame.Styles;component/JyqStyles/Default/JyqToolBarStyle.xaml" />
+        <ResourceDictionary Source="pack://Application:,,,/JyqFrame.Styles;component/JyqStyles/Default/JyqMenuStyle.xaml" />
+        <ResourceDictionary Source="pack://Application:,,,/JyqFrame.Styles;component/JyqStyles/Default/JyqContextMenuStyle.xaml" />
+        <ResourceDictionary Source="pack://Application:,,,/JyqFrame.Styles;component/JyqStyles/Default/JyqListBoxStyle.xaml" />
+        <ResourceDictionary Source="pack://Application:,,,/JyqFrame.Styles;component/JyqStyles/Default/JyqListViewStyle.xaml" />
+        <ResourceDictionary Source="pack://Application:,,,/JyqFrame.Styles;component/JyqStyles/Default/JyqToolTipStyle.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+</ResourceDictionary>

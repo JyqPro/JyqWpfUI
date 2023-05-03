@@ -1,0 +1,162 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:controls="clr-namespace:JyqFrame.Styles.Controls"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib"
+                    xmlns:system1="http://schemas.microsoft.com/netfx/2009/xaml/presentation">
+
+    <system:Double x:Key="CheckBoxBorderWidth">15</system:Double>
+    <system:Double x:Key="CheckBoxBorderHeight">15</system:Double>
+    <system1:CornerRadius x:Key="CheckBoxBorderCorner">2</system1:CornerRadius>
+    <Thickness x:Key="CheckBoxBorderThickness">1</Thickness>
+    <system:Double x:Key="CheckBoxPathStrokeThickness">1</system:Double>
+    <system:Double x:Key="CheckBoxPathWidth">10</system:Double>
+    <system:Double x:Key="CheckBoxPathHeight">10</system:Double>
+    <system:Double x:Key="CheckBoxPathHeight2">2</system:Double>
+
+
+    <Style x:Key="JyqCheckBoxStyle"
+           TargetType="controls:JyqCheckBox">
+        <Setter Property="Width"
+                Value="100" />
+        <Setter Property="VerticalAlignment" 
+                Value="Center"/>
+        <Setter Property="HorizontalAlignment"
+                Value="Center" />
+        <Setter Property="FontSize"
+                Value="{DynamicResource JyqUIFontSize}" />
+        <Setter Property="Background"
+                Value="{DynamicResource TransparentBackground}" />
+        <Setter Property="Foreground"
+                Value="{DynamicResource LightForeground}" />
+        <Setter Property="Padding"
+                Value="5 0" />
+        <Setter Property="Cursor"
+                Value="Hand" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="controls:JyqCheckBox">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto" />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <Border Width="{DynamicResource CheckBoxBorderWidth}"
+                                Height="{DynamicResource CheckBoxBorderHeight}"
+                                CornerRadius="{DynamicResource CheckBoxBorderCorner}"
+                                BorderThickness="{DynamicResource CheckBoxBorderThickness}"
+                                BorderBrush="{DynamicResource PrimaryBackground}"
+                                Background="{DynamicResource TransparentBackground}"
+                                VerticalAlignment="Center"
+                                x:Name="PART_BackBorder" />
+                        <Path Opacity="0"
+                              Stretch="Fill"
+                              Stroke="{DynamicResource DarkBackground}"
+                              StrokeThickness="{DynamicResource CheckBoxPathStrokeThickness}"
+                              Data="{DynamicResource CheckedPath}"
+                              Fill="{DynamicResource DarkBackground}"
+                              Width="{DynamicResource CheckBoxPathWidth}"
+                              Height="{DynamicResource CheckBoxPathHeight}"
+                              x:Name="PART_CheckPath" />
+                        <ContentPresenter Margin="{TemplateBinding Padding}"
+                                          VerticalAlignment="{TemplateBinding VerticalAlignment}"
+                                          HorizontalAlignment="Left"
+                                          Grid.Column="1" />
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <MultiTrigger>
+                            <MultiTrigger.Conditions>
+                                <Condition Property="IsChecked"
+                                           Value="False" />
+                                <Condition Property="IsMouseOver"
+                                           Value="True" />
+                            </MultiTrigger.Conditions>
+                            <MultiTrigger.Setters>
+                                <Setter Property="Background"
+                                        Value="{DynamicResource PrimaryBackground}"
+                                        TargetName="PART_BackBorder" />
+                            </MultiTrigger.Setters>
+                        </MultiTrigger>
+                        <Trigger Property="ThemeType"
+                                 Value="Dark">
+                            <Setter Property="Stroke"
+                                    Value="{DynamicResource DarkForeground}"
+                                    TargetName="PART_CheckPath" />
+                            <Setter Property="Fill"
+                                    Value="{DynamicResource DarkForeground}"
+                                    TargetName="PART_CheckPath" />
+                        </Trigger>
+                        <Trigger Property="ThemeType"
+                                 Value="Light">
+                            <Setter Property="Stroke"
+                                    Value="{DynamicResource LightForeground}"
+                                    TargetName="PART_CheckPath" />
+                            <Setter Property="Fill"
+                                    Value="{DynamicResource LightForeground}"
+                                    TargetName="PART_CheckPath" />
+                        </Trigger>
+                        <MultiTrigger>
+                            <MultiTrigger.Conditions>
+                                <Condition Property="IsChecked"
+                                           Value="True" />
+                            </MultiTrigger.Conditions>
+                            <MultiTrigger.Setters>
+                                <Setter Property="Background"
+                                        TargetName="PART_BackBorder"
+                                        Value="{DynamicResource PrimaryBackground}" />
+                                <Setter Property="Opacity"
+                                        TargetName="PART_CheckPath"
+                                        Value="1" />
+                                <Setter Property="Data"
+                                        TargetName="PART_CheckPath"
+                                        Value="{DynamicResource CheckedPath}" />
+                                <Setter Property="Height"
+                                        TargetName="PART_CheckPath"
+                                        Value="{DynamicResource CheckBoxPathHeight}" />
+                            </MultiTrigger.Setters>
+                        </MultiTrigger>
+                        <MultiTrigger>
+                            <MultiTrigger.Conditions>
+                                <Condition Property="IsChecked"
+                                           Value="{x:Null}" />
+                            </MultiTrigger.Conditions>
+                            <MultiTrigger.Setters>
+                                <Setter Property="Background"
+                                        TargetName="PART_BackBorder"
+                                        Value="{DynamicResource PrimaryBackground}" />
+                                <Setter Property="Opacity"
+                                        TargetName="PART_CheckPath"
+                                        Value="1" />
+                                <Setter Property="Data"
+                                        TargetName="PART_CheckPath"
+                                        Value="{DynamicResource NullCheckedPath}" />
+                                <Setter Property="Height"
+                                        TargetName="PART_CheckPath"
+                                        Value="{DynamicResource CheckBoxPathHeight2}" />
+                            </MultiTrigger.Setters>
+                        </MultiTrigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="IsEnabled"
+                     Value="False">
+                <Setter Property="Opacity"
+                        Value="0.5" />
+            </Trigger>
+            <Trigger Property="ThemeType"
+                     Value="Dark">
+                <Setter Property="Foreground"
+                        Value="{DynamicResource LightForeground}"/>
+            </Trigger>
+            <Trigger Property="ThemeType"
+                     Value="Light">
+                <Setter Property="Foreground"
+                        Value="{DynamicResource DarkForeground}"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style BasedOn="{StaticResource JyqCheckBoxStyle}"
+           TargetType="controls:JyqCheckBox" />
+</ResourceDictionary>

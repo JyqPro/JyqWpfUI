@@ -1,0 +1,24 @@
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Core\bin\Debug\JyqFrame.Core.dll
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Core\bin\Debug\JyqFrame.Core.pdb
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Core\obj\Debug\JyqFrame.Core.csproj.AssemblyReference.cache
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Core\obj\Debug\JyqFrame.Core.csproj.CoreCompileInputs.cache
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Core\obj\Debug\JyqFrame.Core.dll
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Core\obj\Debug\JyqFrame.Core.pdb
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Core\bin\Debug\JyqFrame.Core.dll
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Core\bin\Debug\JyqFrame.Core.pdb
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Core\obj\Debug\JyqFrame.Core.csproj.AssemblyReference.cache
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Core\obj\Debug\JyqFrame.Core.csproj.CoreCompileInputs.cache
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Core\obj\Debug\JyqFrame.Core.dll
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Core\obj\Debug\JyqFrame.Core.pdb
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Core\bin\Debug\JyqFrame.Core.dll
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Core\bin\Debug\JyqFrame.Core.pdb
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Core\obj\Debug\JyqFrame.Core.csproj.AssemblyReference.cache
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Core\obj\Debug\JyqFrame.Core.csproj.CoreCompileInputs.cache
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Core\obj\Debug\JyqFrame.Core.dll
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Core\obj\Debug\JyqFrame.Core.pdb
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Core\bin\Debug\JyqFrame.Core.dll
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Core\bin\Debug\JyqFrame.Core.pdb
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Core\obj\Debug\JyqFrame.Core.csproj.AssemblyReference.cache
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Core\obj\Debug\JyqFrame.Core.csproj.CoreCompileInputs.cache
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Core\obj\Debug\JyqFrame.Core.dll
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Core\obj\Debug\JyqFrame.Core.pdb

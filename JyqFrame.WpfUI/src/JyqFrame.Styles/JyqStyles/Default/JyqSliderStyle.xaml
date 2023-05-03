@@ -1,0 +1,395 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:controls="clr-namespace:JyqFrame.Styles.Controls" 
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    
+    <sys:Double x:Key="SliderThumbWidth">15</sys:Double>
+    <sys:Double x:Key="SliderThumbHeight">15</sys:Double>
+    <sys:Double x:Key="TickBarWidth">4</sys:Double>
+    <sys:Double x:Key="TickBarHeight">4</sys:Double>
+    
+    <!--RepeatButton-->
+    <Style x:Key="JyqSliderRepeatButton"
+           TargetType="{x:Type RepeatButton}">
+        <Setter Property="SnapsToDevicePixels"
+                Value="True"/>
+        <Setter Property="OverridesDefaultStyle"
+                Value="True"/>
+        <Setter Property="IsTabStop"
+                Value="False"/>
+        <Setter Property="Focusable"
+                Value="False"/>
+        <Setter Property="Cursor"
+                Value="Hand"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type RepeatButton}">
+                    <Border Background="{DynamicResource TransparentBackground}" 
+                            />
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <!--Thumb-->
+    <Style x:Key="JyqSliderThumb"
+           TargetType="{x:Type Thumb}">
+        <Setter Property="SnapsToDevicePixels"
+                Value="True"/>
+        <Setter Property="OverridesDefaultStyle"
+                Value="True"/>
+        <Setter Property="Width"
+                Value="{DynamicResource SliderThumbWidth}"/>
+        <Setter Property="Height"
+                Value="{DynamicResource SliderThumbHeight}"/>
+        <Setter Property="Cursor"
+                Value="Hand"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Thumb}">
+                    <Grid>
+                        <Ellipse x:Name="Ellipse"
+                                 Fill="{Binding RelativeSource={RelativeSource AncestorType=controls:JyqSlider},Path=ThumbBrush}"
+                                 Stretch="Fill"
+                                 Opacity="1">
+                            <Ellipse.RenderTransform>
+                                <ScaleTransform/>
+                            </Ellipse.RenderTransform>
+                        </Ellipse>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver"
+                                 Value="True">
+                            <Setter Property="Opacity"
+                                    Value="0.7"
+                                    TargetName="Ellipse"/>
+                            <Trigger.EnterActions>
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <DoubleAnimation Storyboard.TargetName="Ellipse"
+                                                         Storyboard.TargetProperty="RenderTransform.ScaleX"
+                                                         To="1.12"
+                                                         Duration="0:0:0.167"/>
+                                        <DoubleAnimation Storyboard.TargetName="Ellipse"
+                                                         Storyboard.TargetProperty="RenderTransform.ScaleY"
+                                                         To="1.12"
+                                                         Duration="0:0:0.167"/>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </Trigger.EnterActions>
+                            <Trigger.ExitActions>
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <DoubleAnimation Storyboard.TargetName="Ellipse"
+                                                         Storyboard.TargetProperty="RenderTransform.ScaleX"
+                                                         To="1"
+                                                         Duration="0:0:0.167"/>
+                                        <DoubleAnimation Storyboard.TargetName="Ellipse"
+                                                         Storyboard.TargetProperty="RenderTransform.ScaleY"
+                                                         To="1"
+                                                         Duration="0:0:0.167"/>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </Trigger.ExitActions>
+                        </Trigger>
+                        <Trigger Property="IsDragging"
+                                 Value="True">
+                            <Setter Property="Opacity"
+                                    Value="0.7"
+                                    TargetName="Ellipse"/>
+                        </Trigger>
+                        <Trigger Property="IsEnabled"
+                                 Value="False">
+                            <Setter Property="Opacity"
+                                    Value="0.56"
+                                    TargetName="Ellipse"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <!--Horizontal Slider-->
+    <ControlTemplate x:Key="HorizontalJyqSliderTemplate"
+                     TargetType="{x:Type controls:JyqSlider}">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition />
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <TickBar x:Name="TopTick"
+                     SnapsToDevicePixels="True"
+                     Placement="Top"
+                     Height="{DynamicResource TickBarHeight}"
+                     Fill="{TemplateBinding Foreground}"
+                     Visibility="Collapsed"/>
+            <Border x:Name="BackBorder"
+                    Margin="0"
+                    CornerRadius="4"
+                    Height="{DynamicResource TickBarHeight}"
+                    Grid.Row="1"
+                    BorderThickness="0"
+                    Background="{TemplateBinding Background}"/>
+            <Track x:Name="PART_Track"
+                   Grid.Row="1">
+                <Track.DecreaseRepeatButton>
+                    <RepeatButton Command="Slider.DecreaseLarge">
+                        <RepeatButton.Style>
+                            <Style TargetType="{x:Type RepeatButton}">
+                                <Setter Property="IsTabStop"
+                                        Value="False"/>
+                                <Setter Property="Focusable"
+                                        Value="False"/>
+                                <Setter Property="Cursor"
+                                        Value="Hand"/>
+                                <Setter Property="Template">
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType="{x:Type RepeatButton}">
+                                            <Border Background="{Binding RelativeSource={RelativeSource AncestorType=controls:JyqSlider},Path=ThumbBrush}"
+                                                    Height="{DynamicResource TickBarHeight}"
+                                                    CornerRadius="{Binding RelativeSource={RelativeSource AncestorType=controls:JyqSlider},Path=RepeatButtonBorderCornerRadius}"/>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                            </Style>
+                        </RepeatButton.Style>
+                    </RepeatButton>
+                </Track.DecreaseRepeatButton>
+                <Track.Thumb>
+                    <Thumb Style="{StaticResource JyqSliderThumb}"/>
+                </Track.Thumb>
+                <Track.IncreaseRepeatButton>
+                    <RepeatButton Style="{StaticResource JyqSliderRepeatButton}"
+                                  Command="Slider.IncreaseLarge"/>
+                </Track.IncreaseRepeatButton>
+            </Track>
+            <TickBar x:Name="BottomTick"
+                     SnapsToDevicePixels="True"
+                     Placement="Bottom"
+                     Height="{DynamicResource TickBarHeight}"
+                     Grid.Row="2"
+                     Fill="{TemplateBinding Foreground}"
+                     Visibility="Collapsed"/>
+        </Grid>
+        <ControlTemplate.Triggers>
+            <Trigger Property="TickPlacement" 
+                     Value="TopLeft">
+                <Setter TargetName="TopTick" 
+                        Property="Visibility" 
+                        Value="Visible" />
+            </Trigger>
+            <Trigger Property="TickPlacement" 
+                     Value="BottomRight">
+                <Setter TargetName="BottomTick" 
+                        Property="Visibility" 
+                        Value="Visible" />
+            </Trigger>
+            <Trigger Property="TickPlacement" 
+                     Value="Both">
+                <Setter TargetName="TopTick" 
+                        Property="Visibility" 
+                        Value="Visible" />
+                <Setter TargetName="BottomTick"
+                        Property="Visibility" 
+                        Value="Visible" />
+            </Trigger>
+        </ControlTemplate.Triggers>
+    </ControlTemplate>
+    <!--Vertical Slider-->
+    <ControlTemplate x:Key="VerticalJyqSliderTemplate"
+                     TargetType="{x:Type controls:JyqSlider}"
+                     >
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition />
+                <ColumnDefinition Width="auto"/>
+            </Grid.ColumnDefinitions>
+            <TickBar x:Name="LeftTick"
+                     SnapsToDevicePixels="True"
+                     Placement="Left"
+                     Width="{DynamicResource TickBarWidth}"
+                     Fill="{TemplateBinding Foreground}"
+                     Visibility="Collapsed"/>
+            <Border x:Name="BackBorder"
+                    Margin="0"
+                    CornerRadius="4"
+                    Width="{DynamicResource TickBarWidth}"
+                    Grid.Column="1"
+                    BorderThickness="0"
+                    Background="{TemplateBinding Background}"/>
+            <Track x:Name="PART_Track"
+                   Grid.Column="1">
+                <Track.DecreaseRepeatButton>
+                    <RepeatButton Command="Slider.DecreaseLarge">
+                        <RepeatButton.Style>
+                            <Style TargetType="{x:Type RepeatButton}">
+                                <Setter Property="IsTabStop"
+                                        Value="False"/>
+                                <Setter Property="Focusable"
+                                        Value="False"/>
+                                <Setter Property="Cursor"
+                                        Value="Hand"/>
+                                <Setter Property="Template">
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType="{x:Type RepeatButton}">
+                                            <Border Background="{Binding RelativeSource={RelativeSource AncestorType=controls:JyqSlider},Path=ThumbBrush}"
+                                                    Width="{DynamicResource TickBarWidth}"
+                                                    CornerRadius="{Binding RelativeSource={RelativeSource AncestorType=controls:JyqSlider},Path=RepeatButtonBorderCornerRadius}"/>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                            </Style>
+                        </RepeatButton.Style>
+                    </RepeatButton>
+                </Track.DecreaseRepeatButton>
+                <Track.Thumb>
+                    <Thumb Style="{StaticResource JyqSliderThumb}"/>
+                </Track.Thumb>
+                <Track.IncreaseRepeatButton>
+                    <RepeatButton Style="{StaticResource JyqSliderRepeatButton}"
+                                  Command="Slider.IncreaseLarge"/>
+                </Track.IncreaseRepeatButton>
+            </Track>
+            <TickBar x:Name="RightTick"
+                     SnapsToDevicePixels="True"
+                     Placement="Right"
+                     Width="{DynamicResource TickBarWidth}"
+                     Grid.Column="2"
+                     Fill="{TemplateBinding Foreground}"
+                     Visibility="Collapsed"/>
+        </Grid>
+        <ControlTemplate.Triggers>
+            <Trigger Property="TickPlacement" 
+                     Value="TopLeft">
+                <Setter TargetName="LeftTick" 
+                        Property="Visibility" 
+                        Value="Visible" />
+            </Trigger>
+            <Trigger Property="TickPlacement" 
+                     Value="BottomRight">
+                <Setter TargetName="RightTick" 
+                        Property="Visibility" 
+                        Value="Visible" />
+            </Trigger>
+            <Trigger Property="TickPlacement" 
+                     Value="Both">
+                <Setter TargetName="LeftTick" 
+                        Property="Visibility" 
+                        Value="Visible" />
+                <Setter TargetName="RightTick"
+                        Property="Visibility" 
+                        Value="Visible" />
+            </Trigger>
+        </ControlTemplate.Triggers>
+    </ControlTemplate>
+    <Style x:Key="JyqSliderStyle"
+           TargetType="{x:Type controls:JyqSlider}">
+        <Setter Property="Orientation"
+                Value="Horizontal"/>
+        <Setter Property="SnapsToDevicePixels"
+                Value="True"/>
+        <Setter Property="OverridesDefaultStyle"
+                Value="True"/>
+        <Setter Property="FontSize"
+                Value="{DynamicResource JyqUIFontSize}"/>
+        <Setter Property="Foreground"
+                Value="{DynamicResource LightForeground}"/>
+        <Setter Property="Background"
+                Value="{DynamicResource DarkBackground}"/>
+        <Setter Property="ThumbBrush"
+                Value="{DynamicResource PrimaryBackground}"/>
+        <Setter Property="RepeatButtonBorderCornerRadius"
+                Value="4 0 0 4"/>
+        <Style.Triggers>
+            <Trigger Property="ThemeType"
+                     Value="Dark">
+                <Setter Property="Foreground"
+                        Value="{DynamicResource LightForeground}"/>
+                <Setter Property="Background"
+                        Value="{DynamicResource DarkBackground}"/>
+            </Trigger>
+            <Trigger Property="ThemeType"
+                     Value="Light">
+                <Setter Property="Foreground"
+                        Value="{DynamicResource DarkForeground}"/>
+                <Setter Property="Background"
+                        Value="{DynamicResource LightBackground}"/>
+            </Trigger>
+            <Trigger Property="Orientation"
+                     Value="Horizontal">
+                <Setter Property="MaxHeight"
+                        Value="23" />
+                <Setter Property="MinWidth"
+                        Value="104" />
+                <Setter Property="Template"
+                        Value="{StaticResource HorizontalJyqSliderTemplate}" />
+            </Trigger>
+            <Trigger Property="Orientation"
+                     Value="Vertical">
+                <Setter Property="MaxWidth"
+                        Value="23" />
+                <Setter Property="MinHeight"
+                        Value="104"/>
+                <Setter Property="Template"
+                        Value="{StaticResource VerticalJyqSliderTemplate}" />
+            </Trigger>
+            <Trigger Property="IsEnabled"
+                     Value="False">
+                <Setter Property="Opacity"
+                        Value="0.56"/>
+            </Trigger>
+            <MultiTrigger>
+                <MultiTrigger.Conditions>
+                    <Condition Property="Orientation"
+                               Value="Horizontal"/>
+                    <Condition Property="IsDirectionReversed"
+                               Value="False"/>
+                </MultiTrigger.Conditions>
+                <MultiTrigger.Setters>
+                    <Setter Property="RepeatButtonBorderCornerRadius"
+                            Value="4 0 0 4"/>
+                </MultiTrigger.Setters>
+            </MultiTrigger>
+            <MultiTrigger>
+                <MultiTrigger.Conditions>
+                    <Condition Property="Orientation"
+                               Value="Horizontal"/>
+                    <Condition Property="IsDirectionReversed"
+                               Value="True"/>
+                </MultiTrigger.Conditions>
+                <MultiTrigger.Setters>
+                    <Setter Property="RepeatButtonBorderCornerRadius"
+                            Value="0 4 4 0"/>
+                </MultiTrigger.Setters>
+            </MultiTrigger>
+            <MultiTrigger>
+                <MultiTrigger.Conditions>
+                    <Condition Property="Orientation"
+                               Value="Vertical"/>
+                    <Condition Property="IsDirectionReversed"
+                               Value="False"/>
+                </MultiTrigger.Conditions>
+                <MultiTrigger.Setters>
+                    <Setter Property="RepeatButtonBorderCornerRadius"
+                            Value="0 0 4 4"/>
+                </MultiTrigger.Setters>
+            </MultiTrigger>
+            <MultiTrigger>
+                <MultiTrigger.Conditions>
+                    <Condition Property="Orientation"
+                               Value="Vertical"/>
+                    <Condition Property="IsDirectionReversed"
+                               Value="True"/>
+                </MultiTrigger.Conditions>
+                <MultiTrigger.Setters>
+                    <Setter Property="RepeatButtonBorderCornerRadius"
+                            Value="4 4 0 0"/>
+                </MultiTrigger.Setters>
+            </MultiTrigger>
+        </Style.Triggers>
+    </Style>
+    
+    <Style BasedOn="{StaticResource JyqSliderStyle}"
+           TargetType="{x:Type controls:JyqSlider}"/>
+</ResourceDictionary>

@@ -1,0 +1,292 @@
+﻿<UserControl x:Class="JyqFrameApp.Views.MenuView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:JyqFrameApp.Views"
+             xmlns:ui="clr-namespace:JyqFrame.Styles.Controls;assembly=JyqFrame.Styles"
+             xmlns:cv="clr-namespace:JyqFrameApp.Common.Converters"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <cv:BoolToColorConverter x:Key="BoolToColorConverter"/>
+        <cv:BoolToTextConverter x:Key="BoolToTextConverter"/>
+    </UserControl.Resources>
+    
+    <ui:JyqScrollViewer>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="0"
+                       Text="菜单"
+                       Margin="15 10"
+                       FontSize="14"
+                       VerticalAlignment="Center"/>
+            <ui:JyqMenu Grid.Row="1"
+                        Margin="15 10"
+                        ThemeType="Dark"
+                        IsEnabled="True"
+                        >
+                <ui:JyqMenuItem Header="_File">
+                    <ui:JyqMenuItem Header="_New" />
+                    <ui:JyqMenuItem Header="_Open" />
+                    <ui:JyqMenuItem Header="_Save" />
+                </ui:JyqMenuItem>
+                <ui:JyqMenuItem Header="_SaveAs" >
+                    <ui:JyqMenuItem Header="_PDF" InputGestureText="Ctrl+S"/>
+                    <Separator />
+                    <ui:JyqMenuItem Header="_Print" InputGestureText="Ctrl+P"/>
+                </ui:JyqMenuItem>
+                <ui:JyqMenuItem Header="_Check" >
+                    <ui:JyqMenuItem Header="_Show Status" IsCheckable="True"/>
+                    <ui:JyqMenuItem Header="_Use Net" IsCheckable="True"/>
+                </ui:JyqMenuItem>
+                <ui:JyqMenuItem Header="_About" >
+                    <ui:JyqMenuItem Header="_Help">
+                        <ui:JyqMenuItem Header="_Help2.0"/>
+                    </ui:JyqMenuItem>
+                    <Separator />
+                    <ui:JyqMenuItem Header="_Exit" />
+                </ui:JyqMenuItem>
+            </ui:JyqMenu>
+            <TextBlock Grid.Row="2"
+                       Text="工具栏"
+                       Margin="15 10"
+                       FontSize="14"
+                       VerticalAlignment="Center"/>
+            <ToolBarTray Grid.Row="3"
+                         Margin="10"
+                         Background="{DynamicResource DarkBackground}">
+                <ui:JyqToolBar ThemeType="Dark">
+                    <Button  Content="New" />
+                    <Button  Content="Open" />
+                    <Button  Content="Save" />
+                    <Button Content="As Word Document" ToolBar.OverflowMode="Always" />
+                    <Button Content="As PDF" ToolBar.OverflowMode="Always" />
+                    <Button Content="As text file" ToolBar.OverflowMode="Always" />
+                </ui:JyqToolBar>
+                <ui:JyqToolBar ThemeType="Dark">
+                    <Button  Content="Cut" />
+                    <Button  Content="Copy" />
+                    <Button  Content="Paste" />
+                    <ui:JyqComboBox Width="80"
+                                    SelectedIndex="0">
+                        <ComboBoxItem Content="Insert Text"/>
+                        <ComboBoxItem Content="Insert Icon"/>
+                        <ComboBoxItem Content="Insert File"/>
+                    </ui:JyqComboBox>
+                </ui:JyqToolBar>
+                <ui:JyqToolBar ThemeType="Dark">
+                    <Button Content="Bold" ToolBar.OverflowMode="Always" />
+                    <Button Content="Italic" ToolBar.OverflowMode="AsNeeded" />
+                    <Button Content="Normal" ToolBar.OverflowMode="Never" />
+                </ui:JyqToolBar>
+            </ToolBarTray>
+            <TextBlock Grid.Row="4"
+                       Text="工具栏"
+                       Margin="15 10"
+                       FontSize="14"
+                       VerticalAlignment="Center"/>
+            <ToolBarTray Grid.Row="5"
+                         Margin="15 10"
+                         Background="{DynamicResource DarkBackground}">
+                <ui:JyqToolBar ThemeType="Dark">
+                    <Button >
+                        <Image Source="/Images/new.png"/>
+                        <Button.ToolTip>
+                            <ui:JyqToolTip Content="新建"/>
+                        </Button.ToolTip>
+                    </Button>
+                    <Button >
+                        <Image Source="/Images/_open.png"/>
+                        <Button.ToolTip>
+                            <ui:JyqToolTip Content="打开"/>
+                        </Button.ToolTip>
+                    </Button>
+                    <Button >
+                        <Image Source="/Images/close.png"/>
+                        <Button.ToolTip>
+                            <ui:JyqToolTip Content="关闭"/>
+                        </Button.ToolTip>
+                    </Button>
+                    <Button >
+                        <Image Source="/Images/save.png"/>
+                        <Button.ToolTip>
+                            <ui:JyqToolTip Content="保存"/>
+                        </Button.ToolTip>
+                    </Button>
+                    <Button >
+                        <Image Source="/Images/saveAs.png"/>
+                        <Button.ToolTip>
+                            <ui:JyqToolTip Content="另存为"/>
+                        </Button.ToolTip>
+                    </Button>
+                </ui:JyqToolBar>
+                <ui:JyqToolBar ThemeType="Dark">
+                    <Button >
+                        <Image Source="/Images/copy.png"/>
+                        <Button.ToolTip>
+                            <ui:JyqToolTip Content="复制"/>
+                        </Button.ToolTip>
+                    </Button>
+                    <Button >
+                        <Image Source="/Images/cut.png"/>
+                        <Button.ToolTip>
+                            <ui:JyqToolTip Content="剪切"/>
+                        </Button.ToolTip>
+                    </Button>
+                    <Button >
+                        <Image Source="/Images/paste.png"/>
+                        <Button.ToolTip>
+                            <ui:JyqToolTip Content="粘贴"/>
+                        </Button.ToolTip>
+                    </Button>
+                </ui:JyqToolBar>
+                <ui:JyqToolBar ThemeType="Dark">
+                    <Button >
+                        <Image Source="/Images/help.png"/>
+                        <Button.ToolTip>
+                            <ui:JyqToolTip Content="帮助"/>
+                        </Button.ToolTip>
+                    </Button>
+                    <Button >
+                        <Image Source="/Images/about.png"/>
+                        <Button.ToolTip>
+                            <ui:JyqToolTip Content="关于"/>
+                        </Button.ToolTip>
+                    </Button>
+                </ui:JyqToolBar>
+            </ToolBarTray>
+            <TextBlock Grid.Row="6"
+                       Text="状态栏"
+                       Margin="15 10"
+                       FontSize="14"
+                       VerticalAlignment="Center"/>
+            <ui:JyqStatusBar Grid.Row="7"
+                             Margin="15 10">
+                <StatusBarItem>
+                    <TextBlock>文件下载</TextBlock>
+                </StatusBarItem>
+                <StatusBarItem>
+                    <ui:JyqProgressBar Width="200" Height="10"
+                                       Name="progressBar1"
+                                       Maximum="1">
+                    </ui:JyqProgressBar>
+                </StatusBarItem>
+                <Separator/>
+                <TextBlock Text="{Binding ElementName=progressBar1,Path=Value,StringFormat={}{0:P}}"/>
+                <Separator/>
+                <Border Width="15"
+                        Height="15"
+                        CornerRadius="15"
+                        Background="{Binding ElementName=downloadButton,Path=IsLoading,Converter={StaticResource BoolToColorConverter}}"
+                        BorderBrush="{Binding ElementName=downloadButton,Path=IsLoading,Converter={StaticResource BoolToColorConverter}}"/>
+                <TextBlock Text="{Binding ElementName=downloadButton,Path=IsLoading,Converter={StaticResource BoolToTextConverter}}"
+                           Margin="2 0"
+                           VerticalAlignment="Center"/>
+            </ui:JyqStatusBar>
+            <ui:JyqButton Grid.Row="8"
+                          Margin="15 10"
+                          Content="开始下载"
+                          HorizontalAlignment="Left"
+                          Command="{Binding BeginDownloadCommand}"
+                          IsLoading="{Binding IsDownload}"
+                          LoadingContent="正在下载.."
+                          x:Name="downloadButton">
+                <ui:JyqButton.Triggers>
+                    <EventTrigger RoutedEvent="Button.Click">
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetName="progressBar1" 
+                                                 Storyboard.TargetProperty="Value"
+                                                 From="0" 
+                                                 To="1" 
+                                                 Duration="0:0:5"/>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+                </ui:JyqButton.Triggers>
+            </ui:JyqButton>
+            <TextBlock Grid.Row="9"
+                       Text="右键菜单"
+                       Margin="15 10"
+                       FontSize="14"
+                       VerticalAlignment="Center"/>
+            <ui:JyqButton Grid.Row="10"
+                          Margin="15 10"
+                          HorizontalAlignment="Left"
+                          Content="右键菜单">
+                <ui:JyqButton.ContextMenu>
+                    <ui:JyqContextMenu Name="cm" StaysOpen="true">
+                        <ui:JyqMenuItem Header="File"/>
+                        <ui:JyqMenuItem Header="Save"/>
+                        <ui:JyqMenuItem Header="SaveAs"/>
+                        <ui:JyqMenuItem Header="Recent Files">
+                            <ui:JyqMenuItem Header="ReadMe.txt"/>
+                            <ui:JyqMenuItem Header="Schedule.xls"/>
+                        </ui:JyqMenuItem>
+                    </ui:JyqContextMenu>
+                </ui:JyqButton.ContextMenu>
+            </ui:JyqButton>
+            <TextBlock Grid.Row="11"
+                       Text="弹出窗口"
+                       Margin="15 10"
+                       FontSize="14"
+                       VerticalAlignment="Center"/>
+            <StackPanel Grid.Row="12"
+                        Orientation="Horizontal"
+                        Margin="15 10">
+                <ui:JyqPopup >
+                    <StackPanel>
+                        <ui:JyqButton Width="35"
+                                      Content="登录"
+                                      ButtonType="Custom"
+                                      Foreground="White"
+                                      HoverBackground="{DynamicResource PrimaryBackground}"/>
+                        <ui:JyqButton Width="35"
+                                      Content="注销"
+                                      ButtonType="Custom"
+                                      Foreground="White"
+                                      HoverBackground="{DynamicResource DrangerBackground}"
+                                      />
+                    </StackPanel>
+                </ui:JyqPopup>
+                <ui:JyqPopup Margin="20 0">
+                    <Grid Margin="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="账号："
+                                       VerticalAlignment="Center"/>
+                            <ui:JyqTextBox WaterMark="请输入账号"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal"
+                                    Grid.Row="1">
+                            <TextBlock Text="密码："
+                                       VerticalAlignment="Center"/>
+                            <ui:JyqTextBox WaterMark="请输入密码"/>
+                        </StackPanel>
+                    </Grid>
+                </ui:JyqPopup>
+            </StackPanel>
+            
+        </Grid>
+    </ui:JyqScrollViewer>
+        
+</UserControl>

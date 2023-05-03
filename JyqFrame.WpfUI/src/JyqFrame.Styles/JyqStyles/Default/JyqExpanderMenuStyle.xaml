@@ -1,0 +1,205 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:controls="clr-namespace:JyqFrame.Styles.Controls"
+                    xmlns:commands="clr-namespace:JyqFrame.Styles.Commands">
+   
+    <!--ExpanderMenu RadioButton-->
+    <Style x:Key="JyqExpanderMenuRatioButtonStyle"
+           TargetType="{x:Type RadioButton}">
+        <Setter Property="MinHeight"
+                Value="35"/>
+        <Setter Property="MinWidth"
+                Value="150"/>
+        <Setter Property="Background"
+                Value="{Binding RelativeSource={RelativeSource AncestorType=controls:JyqExpanderMenu},Path=Background}"/>
+        <Setter Property="Foreground" 
+                Value="{Binding RelativeSource={RelativeSource AncestorType=controls:JyqExpanderMenu},Path=Foreground}" />
+        <Setter Property="FontSize" 
+                Value="{DynamicResource JyqUINormalFontSize}" />
+        <Setter Property="Cursor"
+                Value="Hand"/>
+        <Setter Property="Template" >
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type RadioButton}">
+                    <Grid>
+                        <Border Background="{TemplateBinding Background}"
+                            BorderThickness="0"
+                            CornerRadius="0"
+                            x:Name="BackBorder"/>
+                        <Border BorderBrush="{Binding RelativeSource={RelativeSource AncestorType=controls:JyqExpanderMenu},Path=SelectedBrush}"
+                                BorderThickness="1"
+                                Opacity="0"
+                                x:Name="MouseOverBorder"/>
+                    </Grid>
+
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver"
+                                 Value="True">
+                            <Setter Property="Opacity"
+                                    Value="1"
+                                    TargetName="MouseOverBorder"/>
+                        </Trigger>
+                        <Trigger Property="IsChecked"
+                                 Value="True">
+                            <Setter Property="Background"
+                                    TargetName="BackBorder"
+                                    Value="{Binding RelativeSource={RelativeSource AncestorType=controls:JyqExpanderMenu},Path=SelectedBrush}"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="JyqExpanderMenuStyle"
+           TargetType="{x:Type controls:JyqExpanderMenu}">
+        <Setter Property="MinWidth"
+                Value="150"/>
+        <Setter Property="Background"
+                Value="{DynamicResource DarkBackground}"/>
+        <Setter Property="Foreground"
+                Value="{DynamicResource LightForeground}"/>
+        <Setter Property="SelectedBrush"
+                Value="{DynamicResource PrimaryBackground}"/>
+        <Setter Property="FontSize" 
+                Value="{DynamicResource JyqUINormalFontSize}" />
+        <Setter Property="BorderThickness"
+                Value="0"/>
+        <Setter Property="SplitLineColor"
+                Value="{DynamicResource LightColor}"/>
+        <Setter Property="FontSize"
+                Value="{DynamicResource JyqUIFontSize}"/>
+        <Setter Property="BorderThickness"
+                Value="0"/>
+        <Setter Property="Padding"
+                Value="5"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type controls:JyqExpanderMenu}">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition MinHeight="40"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+                        <Border x:Name="BackBorder"
+                                Grid.Row="0"
+                                BorderThickness="0"
+                                Background="{TemplateBinding Background}"
+                                CornerRadius="0">
+                        </Border>
+                        <ToggleButton OverridesDefaultStyle="True"
+                                      Template="{DynamicResource ExpanderToggleButtonStyle}"
+                                      IsChecked="{Binding IsExpanded,Mode=TwoWay,RelativeSource={RelativeSource Mode=TemplatedParent}}"
+                                      Grid.Row="0"/>
+                        <ContentPresenter Grid.Row="0"
+                                          Margin="10"
+                                          ContentSource="Header"
+                                          RecognizesAccessKey="True"
+                                          HorizontalAlignment="Left"
+                                          VerticalAlignment="Center"/>
+
+                        <Border x:Name="ContentBorder"
+                                Grid.Row="1"
+                                CornerRadius="0"
+                                Background="{TemplateBinding Background}"
+                                BorderThickness="0 1 0 0"
+                                Opacity="1"
+                                Visibility="Collapsed">
+                            <Border.BorderBrush>
+                                <SolidColorBrush Color="{Binding RelativeSource={RelativeSource AncestorType=controls:JyqExpander},Path=SplitLineColor}"
+                                                 Opacity="0.75"/>
+                            </Border.BorderBrush>
+                            <Border.RenderTransform>
+                                <ScaleTransform ScaleY="0"/>
+                            </Border.RenderTransform>
+                            <ContentControl Margin="0"
+                                            HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                            VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                                            >
+                                <ItemsControl x:Name="PART_MenuItemsContent">
+                                    <ItemsControl.ItemsPanel>
+                                        <ItemsPanelTemplate>
+                                            <StackPanel/>
+                                        </ItemsPanelTemplate>
+                                    </ItemsControl.ItemsPanel>
+                                    <ItemsControl.ItemTemplate>
+                                        <DataTemplate>
+                                            <Grid>
+                                                <RadioButton Style="{DynamicResource JyqExpanderMenuRatioButtonStyle}"
+                                                             GroupName="MenuGroup"
+                                                             x:Name="PART_ItemButton"
+                                                             Command="commands:JyqCommands.ExpanderMenuItemSwitchCommand"
+                                                             CommandParameter="{Binding}"/>
+                                                <TextBlock Text="{Binding}"
+                                                       Margin="20 0 0 0"
+                                                       VerticalAlignment="Center"
+                                                       HorizontalAlignment="Left"/>
+                                            </Grid>
+                                        </DataTemplate>
+                                    </ItemsControl.ItemTemplate>
+                                </ItemsControl>
+                            </ContentControl>
+                        </Border>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsExpanded"
+                                 Value="True">
+                            <Setter Property="Visibility"
+                                    Value="Visible"
+                                    TargetName="ContentBorder"/>
+                            <Trigger.EnterActions>
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <DoubleAnimation Storyboard.TargetName="ContentBorder"
+                                                         Storyboard.TargetProperty="(Border.RenderTransform).(ScaleTransform.ScaleY)"
+                                                         From="0"
+                                                         To="1"
+                                                         Duration="0:0:0.167"/>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </Trigger.EnterActions>
+                            <Trigger.ExitActions>
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <DoubleAnimation Storyboard.TargetName="ContentBorder"
+                                                         Storyboard.TargetProperty="(Border.RenderTransform).(ScaleTransform.ScaleY)"
+                                                         To="0"
+                                                         Duration="0:0:0.167"/>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </Trigger.ExitActions>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="ThemeType"
+                     Value="Dark">
+                <Setter Property="Foreground"
+                        Value="{DynamicResource LightForeground}"/>
+                <Setter Property="Background"
+                        Value="{DynamicResource DarkBackground}"/>
+                <Setter Property="SplitLineColor"
+                        Value="{DynamicResource LightColor}"/>
+            </Trigger>
+            <Trigger Property="ThemeType"
+                     Value="Light">
+                <Setter Property="Foreground"
+                        Value="{DynamicResource DarkForeground}"/>
+                <Setter Property="Background"
+                        Value="{DynamicResource LightBackground}"/>
+                <Setter Property="SplitLineColor"
+                        Value="{DynamicResource DarkMouseOverColor}"/>
+            </Trigger>
+            <Trigger Property="IsEnabled"
+                     Value="False">
+                <Setter Property="Opacity"
+                        Value="0.56"/>
+            </Trigger>
+        </Style.Triggers>
+
+    </Style>
+    <Style BasedOn="{StaticResource JyqExpanderMenuStyle}"
+           TargetType="{x:Type controls:JyqExpanderMenu}"/>
+</ResourceDictionary>

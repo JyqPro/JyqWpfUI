@@ -1,0 +1,197 @@
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqFrame.Styles.csproj.AssemblyReference.cache
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Asset\JyqColorStyle.baml
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Asset\JyqPathStyle.baml
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqMessageCard.baml
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqFrame.Styles_MarkupCompile.cache
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqFrame.Styles_MarkupCompile.lref
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqMessageCardHost.baml
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqFrame.Styles.dll
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqFrame.Styles.pdb
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Styles\bin\Debug\JyqFrame.Styles.dll
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Styles\bin\Debug\JyqFrame.Styles.pdb
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\Themes\Generic.baml
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqFrame.Styles.g.resources
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqFrame.Styles.Properties.Resources.resources
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqFrame.Styles.csproj.GenerateResource.cache
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqFrame.Styles.csproj.CoreCompileInputs.cache
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Styles\bin\Debug\JyqFrame.Core.dll
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Styles\bin\Debug\JyqFrame.Core.pdb
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqFrame.Styles.csproj.CopyComplete
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqTransitionAnimation.baml
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqButtonStyle.baml
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqLoadingAnimation.baml
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqToggleButtonStyle.baml
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Asset\JyqFontStyle.baml
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqRadioButtonStyle.baml
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqCheckBoxStyle.baml
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqTextBoxStyle.baml
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Asset\FocusVisualStyle.baml
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqScrollBarStyle.baml
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqScrollViewerStyle.baml
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqPasswordBoxStyle.baml
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqComboBoxStyle.baml
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqSliderStyle.baml
+D:\0.project\3.NET Study\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqCalendarStyle.baml
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\bin\Debug\JyqFrame.Styles.dll
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\bin\Debug\JyqFrame.Styles.pdb
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\bin\Debug\JyqFrame.Core.dll
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\bin\Debug\JyqFrame.Core.pdb
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqFrame.Styles.csproj.AssemblyReference.cache
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Asset\FocusVisualStyle.baml
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Asset\JyqColorStyle.baml
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Asset\JyqFontStyle.baml
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Asset\JyqPathStyle.baml
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqFrame.Styles_MarkupCompile.cache
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqFrame.Styles_MarkupCompile.lref
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqButtonStyle.baml
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqCalendarStyle.baml
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqCheckBoxStyle.baml
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqComboBoxStyle.baml
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqLoadingAnimation.baml
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqMessageCard.baml
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqMessageCardHost.baml
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqPasswordBoxStyle.baml
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqRadioButtonStyle.baml
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqScrollBarStyle.baml
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqScrollViewerStyle.baml
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqSliderStyle.baml
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqTextBoxStyle.baml
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqToggleButtonStyle.baml
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqTransitionAnimation.baml
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\Themes\Generic.baml
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqFrame.Styles.g.resources
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqFrame.Styles.Properties.Resources.resources
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqFrame.Styles.csproj.GenerateResource.cache
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqFrame.Styles.csproj.CoreCompileInputs.cache
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqFrame.Styles.csproj.CopyComplete
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqFrame.Styles.dll
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqFrame.Styles.pdb
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqDatePickerStyle.baml
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqExpanderStyle.baml
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqExpanderMenuStyle.baml
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqGroupBoxStyle.baml
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqProgressBarStyle.baml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\bin\Debug\JyqFrame.Styles.dll
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\bin\Debug\JyqFrame.Styles.pdb
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\bin\Debug\JyqFrame.Core.dll
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\bin\Debug\JyqFrame.Core.pdb
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqFrame.Styles.csproj.AssemblyReference.cache
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Asset\FocusVisualStyle.baml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Asset\JyqColorStyle.baml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Asset\JyqFontStyle.baml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Asset\JyqPathStyle.baml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqFrame.Styles_MarkupCompile.cache
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqFrame.Styles_MarkupCompile.lref
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqButtonStyle.baml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqCalendarStyle.baml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqCheckBoxStyle.baml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqComboBoxStyle.baml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqDatePickerStyle.baml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqExpanderMenuStyle.baml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqExpanderStyle.baml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqGroupBoxStyle.baml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqLoadingAnimation.baml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqMessageCard.baml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqMessageCardHost.baml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqPasswordBoxStyle.baml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqProgressBarStyle.baml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqRadioButtonStyle.baml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqScrollBarStyle.baml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqScrollViewerStyle.baml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqSliderStyle.baml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqTextBoxStyle.baml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqToggleButtonStyle.baml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqTransitionAnimation.baml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\Themes\Generic.baml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqFrame.Styles.g.resources
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqFrame.Styles.Properties.Resources.resources
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqFrame.Styles.csproj.GenerateResource.cache
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqFrame.Styles.csproj.CoreCompileInputs.cache
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqFrame.Styles.csproj.CopyComplete
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqFrame.Styles.dll
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqFrame.Styles.pdb
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqTabControlStyle.baml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqTabItemStyle.baml
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqTabControlStyle.baml
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqTabItemStyle.baml
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqTreeViewStyle.baml
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqTreeViewItemStyle.baml
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqDataGridStyle.baml
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqPopupStyle.baml
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqTitleBarStyle.baml
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqStatusBarStyle.baml
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqToolBarStyle.baml
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqMenuStyle.baml
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqContextMenuStyle.baml
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqListBoxStyle.baml
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqListViewStyle.baml
+D:\JClient\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqToolTipStyle.baml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqContextMenuStyle.baml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqDataGridStyle.baml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqListBoxStyle.baml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqListViewStyle.baml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqMenuStyle.baml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqPopupStyle.baml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqStatusBarStyle.baml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqTitleBarStyle.baml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqToolBarStyle.baml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqToolTipStyle.baml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqTreeViewItemStyle.baml
+D:\2.git\jyq-frame.-wpf.-ui\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqTreeViewStyle.baml
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\bin\Debug\JyqFrame.Styles.dll
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\bin\Debug\JyqFrame.Styles.pdb
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\bin\Debug\JyqFrame.Core.dll
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\bin\Debug\JyqFrame.Core.pdb
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqFrame.Styles.csproj.AssemblyReference.cache
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Asset\FocusVisualStyle.baml
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Asset\JyqColorStyle.baml
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Asset\JyqFontStyle.baml
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Asset\JyqPathStyle.baml
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqFrame.Styles_MarkupCompile.cache
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqFrame.Styles_MarkupCompile.lref
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqButtonStyle.baml
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqCalendarStyle.baml
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqCheckBoxStyle.baml
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqComboBoxStyle.baml
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqContextMenuStyle.baml
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqDataGridStyle.baml
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqDatePickerStyle.baml
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqExpanderMenuStyle.baml
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqExpanderStyle.baml
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqGroupBoxStyle.baml
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqListBoxStyle.baml
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqListViewStyle.baml
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqLoadingAnimation.baml
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqMenuStyle.baml
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqMessageCard.baml
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqMessageCardHost.baml
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqPasswordBoxStyle.baml
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqPopupStyle.baml
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqProgressBarStyle.baml
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqRadioButtonStyle.baml
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqScrollBarStyle.baml
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqScrollViewerStyle.baml
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqSliderStyle.baml
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqStatusBarStyle.baml
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqTabControlStyle.baml
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqTabItemStyle.baml
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqTextBoxStyle.baml
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqTitleBarStyle.baml
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqToggleButtonStyle.baml
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqToolBarStyle.baml
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqToolTipStyle.baml
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqTransitionAnimation.baml
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqTreeViewItemStyle.baml
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqStyles\Default\JyqTreeViewStyle.baml
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\Themes\Generic.baml
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqFrame.Styles.g.resources
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqFrame.Styles.Properties.Resources.resources
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqFrame.Styles.csproj.GenerateResource.cache
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqFrame.Styles.csproj.CoreCompileInputs.cache
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqFrame.Styles.csproj.CopyComplete
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqFrame.Styles.dll
+E:\GitPro\JyqWpfUI\JyqFrame.WpfUI\src\JyqFrame.Styles\obj\Debug\JyqFrame.Styles.pdb

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{44C9A902-DFD6-4448-ABFE-4408755222A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{38984DB2-F4F9-4BBB-BDB4-2F9F3E396013}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JyqFrame.Core", "src\JyqFrame.Core\JyqFrame.Core.csproj", "{A232C3EB-23B6-4656-A064-C910312E1D03}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example", "Example", "{C5761890-D520-4600-8E5C-31E2B4D8D840}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JyqFrame.Example", "src\JyqFrame.Example\JyqFrame.Example.csproj", "{10EB5C01-B3DF-493D-AA55-6E4F448931CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JyqFrame.Styles", "src\JyqFrame.Styles\JyqFrame.Styles.csproj", "{CF751337-5FE4-42A7-B49E-38B1C9E3B976}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JyqFrameApp", "src\JyqFrameApp\JyqFrameApp.csproj", "{4214A5D2-0E67-45AD-AB6E-97782C1F866A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A232C3EB-23B6-4656-A064-C910312E1D03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A232C3EB-23B6-4656-A064-C910312E1D03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A232C3EB-23B6-4656-A064-C910312E1D03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A232C3EB-23B6-4656-A064-C910312E1D03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10EB5C01-B3DF-493D-AA55-6E4F448931CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10EB5C01-B3DF-493D-AA55-6E4F448931CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10EB5C01-B3DF-493D-AA55-6E4F448931CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10EB5C01-B3DF-493D-AA55-6E4F448931CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF751337-5FE4-42A7-B49E-38B1C9E3B976}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF751337-5FE4-42A7-B49E-38B1C9E3B976}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF751337-5FE4-42A7-B49E-38B1C9E3B976}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF751337-5FE4-42A7-B49E-38B1C9E3B976}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4214A5D2-0E67-45AD-AB6E-97782C1F866A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4214A5D2-0E67-45AD-AB6E-97782C1F866A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4214A5D2-0E67-45AD-AB6E-97782C1F866A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4214A5D2-0E67-45AD-AB6E-97782C1F866A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A232C3EB-23B6-4656-A064-C910312E1D03} = {38984DB2-F4F9-4BBB-BDB4-2F9F3E396013}
+		{10EB5C01-B3DF-493D-AA55-6E4F448931CD} = {C5761890-D520-4600-8E5C-31E2B4D8D840}
+		{CF751337-5FE4-42A7-B49E-38B1C9E3B976} = {38984DB2-F4F9-4BBB-BDB4-2F9F3E396013}
+		{4214A5D2-0E67-45AD-AB6E-97782C1F866A} = {C5761890-D520-4600-8E5C-31E2B4D8D840}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5955F713-818F-46F2-ABF3-8B9CB8190049}
+	EndGlobalSection
+EndGlobal
